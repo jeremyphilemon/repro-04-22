@@ -1,33 +1,29 @@
 const nextConfig = {
-  transpilePackages: ["@vercel/geist", "@vercel/geist-test-utils"],
+  transpilePackages: ["geist", "geist-test-utils"],
   experimental: {},
   modularizeImports: {
     "geist/icons": {
-      transform: "@vercel/geist/icons/{{ kebabCase member }}",
+      transform: "geist/icons/{{ kebabCase member }}",
       skipDefaultConversion: true,
     },
     "geist/styles.css": {
-      transform: "@vercel/geist/styles.css",
+      transform: "geist/styles.css",
       skipDefaultConversion: true,
     },
     "geist/core": {
-      transform: "@vercel/geist/core",
+      transform: "geist/core",
       skipDefaultConversion: true,
     },
     "geist/components": {
-      transform: "@vercel/geist/components/{{ kebabCase member }}",
+      transform: "geist/components/{{ kebabCase member }}",
       skipDefaultConversion: true,
     },
     "geist/icons": {
-      transform: "@vercel/geist/icons/{{ kebabCase member }}",
+      transform: "geist/icons/{{ kebabCase member }}",
       skipDefaultConversion: true,
     },
     "geist/new-icons/16": {
-      transform: "@vercel/geist/new-icons/16/{{ kebabCase member }}",
-      skipDefaultConversion: true,
-    },
-    "@vercel/geist/components": {
-      transform: "@vercel/geist/components/{{ kebabCase member }}",
+      transform: "geist/new-icons/16/{{ kebabCase member }}",
       skipDefaultConversion: true,
     },
   },

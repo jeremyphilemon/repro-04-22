@@ -1,4 +1,4 @@
-import { CodeBlock } from "@vercel/geist/components";
+import { CodeBlock } from "geist/components";
 
 const code = `function MyComponent(props) {
   return (

@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import "@vercel/geist/styles.css";
-import { GeistProvider } from "@vercel/geist/core/provider";
+import "geist/styles.css";
+import { GeistProvider } from "geist/core/provider";
 
 const inter = Inter({ subsets: ["latin"] });
 

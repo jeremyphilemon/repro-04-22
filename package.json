@@ -9,7 +9,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@vercel/geist": "^0.0.18",
     "@vercel/geist-test-utils": "^1.0.1",
     "geist": "npm:@vercel/geist@^0.0.18",
     "chrono-node": "2.5.0",

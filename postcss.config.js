@@ -1,3 +1,3 @@
-const config = require("@vercel/geist/config/postcss");
+const config = require("geist/config/postcss");
 
 module.exports = config;
