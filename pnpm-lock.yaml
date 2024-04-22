@@ -11,6 +11,15 @@ dependencies:
   '@vercel/geist-test-utils':
     specifier: ^1.0.1
     version: 1.0.1
+  chrono-node:
+    specifier: 2.5.0
+    version: 2.5.0
+  geist:
+    specifier: npm:@vercel/geist@^0.0.18
+    version: /@vercel/geist@0.0.18(@types/react-dom@18.2.25)(@types/react@18.2.79)(next@14.2.2)(react-dom@18.2.0)(react@18.2.0)
+  lodash:
+    specifier: 4.17.21
+    version: 4.17.21
   next:
     specifier: 14.2.2
     version: 14.2.2(react-dom@18.2.0)(react@18.2.0)
@@ -22,6 +31,9 @@ dependencies:
     version: 18.2.0(react@18.2.0)
 
 devDependencies:
+  '@types/lodash':
+    specifier: ^4.17.0
+    version: 4.17.0
   '@types/node':
     specifier: ^20
     version: 20.12.7
@@ -1548,6 +1560,10 @@ packages:
     resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}
     dev: true
 
+  /@types/lodash@4.17.0:
+    resolution: {integrity: sha512-t7dhREVv6dbNj0q17X12j7yDG4bD/DHYX7o5/DbDxobP0HnGPgpRz2Ej77aL7TZT3DSw13fqUTj8J4mMnqa7WA==}
+    dev: true
+
   /@types/luxon@3.0.0:
     resolution: {integrity: sha512-Lx+EZoJxUKw4dp8uei9XiUVNlgkYmax5+ovqt6Xf3LzJOnWhlfJw/jLBmqfGVwOP/pDr4HT8bI1WtxK0IChMLw==}
     dev: false
@@ -1683,7 +1699,7 @@ packages:
       body-scroll-lock: 2.6.4
       case-anything: 2.1.13
       chalk: 5.3.0
-      chrono-node: 2.7.5
+      chrono-node: 2.5.0
       clsx: 1.2.1
       cmdk: 0.2.1(@types/react@18.2.79)(react-dom@18.2.0)(react@18.2.0)
       date-fns: 2.29.2
@@ -2101,9 +2117,8 @@ packages:
       fsevents: 2.3.3
     dev: true
 
-  /chrono-node@2.7.5:
-    resolution: {integrity: sha512-VJWqFN5rWmXVvXAxOD4i0jX8Tb4cLswaslyaAFhxM45zNXPsZleygPbgiaYBD7ORb9fj07zBgJb0Q6eKL+0iJg==}
-    engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
+  /chrono-node@2.5.0:
+    resolution: {integrity: sha512-GasdFCw4tsb8UKlwyJW1S+3bdN06vsyGR2cEDMlhEGI7ic4SQRnLyl/hbItwSum6pPkkUTrzFcaR3C2tZnnO5Q==}
     dependencies:
       dayjs: 1.11.10
     dev: false
